@@ -26,8 +26,8 @@ const Home = () => {
   };
 
   return (
-    <div>
-      <h1>Password Manager</h1>
+    <div className="container mx-auto p-8">
+      <h1 className="text-2xl font-semibold AliceBlue mb-8">Password Manager</h1>
       <PasswordForm addPassword={addPassword} />
       <PasswordList passwords={passwords} deletePassword={deletePassword} />
     </div>
